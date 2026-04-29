@@ -35,8 +35,8 @@ const PROJECTS = {
       { label: 'Website', href: 'https://locked-in-factory.netlify.app/', cls: 'btn-secondary' },
       { label: 'GitHub', href: 'https://github.com/abigail-y/lockedin', cls: 'btn-ghost' }
     ],
-    whyBuilt: "I built this as a personal tool because I genuinely struggled staying focused while studying. I wanted something that combined task management with a Pomodoro-style timer and a motivational element. Using weather and quote APIs gave the app some personality and made it feel less like a chore to open.",
-    whatIdDoDifferently: "The biggest thing I'd change is data persistence — tasks reset on refresh since there's no backend. I'd integrate localStorage at minimum, or ideally a lightweight backend so sessions are saved. I'd also clean up the CSS and make it fully responsive, since the layout is a bit rough on smaller screens."
+    whyBuilt: "I wanted to build a website with multiple features that allowed students to help stay focused throughout studying. I've implemented features such as a pomodoro timer, a deadline tracker, and a flashcard maker.",
+    whatIdDoDifferently: "I think the biggest thing I'd do differently is to have a guest option so a user doesn't need to sign up before having the features revealed to them."
   },
   'elkjer-music': {
     title: 'Elkjer Music',
