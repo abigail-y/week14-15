@@ -9,8 +9,8 @@ const PROJECTS = {
     links: [
       { label: 'Prototype', href: 'https://www.figma.com/proto/0SnawPEmQXtgSA7RrEtov2/EduCare-Hifi?node-id=1-2&t=6gcTfwaJyAMXSxEW-1&starting-point-node-id=1%3A2', cls: 'btn-secondary' }
     ],
-    whyBuilt: 'This was a group project for my UX Design course. We identified a gap in how educators access resources and community funding, and wanted to explore how a mobile-first platform could address that. It was my first time leading the prototyping phase in Figma, and I found the challenge of designing for two very different user types — teachers and donors — really rewarding.',
-    whatIdDoDifferently: "Looking back, I'd spend more time on user testing with actual educators before finalizing the hi-fi prototype. We made some assumptions about navigation patterns that probably would have been challenged in real usability sessions. I'd also revisit the information architecture — the donation flow felt a bit buried and could benefit from a clearer call to action."
+    whyBuilt: 'This was a group project for my UX Design course. We identified a gap in how educators access resources and community funding, and wanted to explore how a mobile-first platform could address that.',
+    whatIdDoDifferently: "Looking back, I'd spend more time on user testing with actual educators before finalizing the hi-fi prototype."
   },
   safebites: {
     title: 'SafeBites',
@@ -48,7 +48,7 @@ const PROJECTS = {
       { label: 'Original Site', href: 'https://robertelkjer.net/ElkjerMusicHomePage11g.html', cls: 'btn-secondary' },
       { label: 'Accessible Site', href: 'https://ej-music.netlify.app/', cls: 'btn-ghost' }
     ],
-    whyBuilt: "This was a class assignment focused on web accessibility. I chose Elkjer Music because it was a real site with genuine barriers — poor contrast, no alt text, and broken keyboard navigation. Fixing those felt meaningful because it directly improved usability for real users, not just for a grade.",
+    whyBuilt: "This was a class assignment focused on web accessibility. I chose Elkjer Music because it was a real site with genuine barriers of poor contrast, no alt text, and broken keyboard navigation. Fixing those felt meaningful because it directly improved usability for real users, not just for a grade.",
     whatIdDoDifferently: "I'd do a more thorough audit using tools like Lighthouse and axe before starting, rather than relying on visual inspection alone. There were some ARIA landmark and focus management improvements I missed that I only caught later. I'd also document each change with a before/after comparison for a stronger case study presentation."
   },
   'thrifted-living': {
